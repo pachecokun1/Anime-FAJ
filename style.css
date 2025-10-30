@@ -1,0 +1,152 @@
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-logo {
+    height: 190px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-logo img {  
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    width: 180px;
+    height: auto;
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.5));
+}
+body {
+    background: #000000;  
+background: -webkit-linear-gradient(to right, #434343, #000000);  
+background: linear-gradient(to right, #434343, #000000); 
+}
+.main-container {
+    background: #232526;  
+    background: -webkit-linear-gradient(to right, #414345, #232526);  
+    background: linear-gradient(to right, #414345, #232526); 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-container h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 80px;
+      color: #5b5c8a;
+      text-shadow: 2px 2px 5px #249bb6;
+      margin: 10px 0;
+    }
+
+
+    .main-container p {
+   font-family: 'Great Vibes', cursive;
+      font-size: 60px;
+      color: #2528c2;
+      text-shadow: 2px 2px 5px #52ceab;
+      margin: 10px 0;
+    }
+
+    .main-container span {
+      font-family: 'Great Vibes', cursive;
+      font-size: 60px;
+      color: #0caa75;
+      text-shadow: 2px 2px 5px #25bfb7;
+      margin: 10px 0;
+    }
+
+.dark-mode{
+  background: #215f00;  
+  background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  
+background: linear-gradient(to right, #e4e4d9, #215f00);   
+    color: #bc1e1eb6;
+}
+
+.dark-mode header {
+    background: #215f00;  
+background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  
+background: linear-gradient(to right, #e4e4d9, #215f00); 
+}
+
+.dark-mode .main-container {
+   background: #215f00;  
+background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  
+background: linear-gradient(to right, #e4e4d9, #215f00); 
+
+}
+header {
+    background: #000000;  
+    background: -webkit-linear-gradient(to right, #434343, #000000);  
+    background: linear-gradient(to right, #434343, #000000); 
+    padding: 20px;
+    display: flex
+;
+    flex-direction
+
+: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#anime-list {
+      display: flex;
+      flex-wrap: wrap; /* que se pueda "quebrar" en varias filas */
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+     background: #232526;  
+    background: -webkit-linear-gradient(to right, #414345, #232526);  
+    background: linear-gradient(to right, #414345, #232526); 
+      color: white;
+    }
+
+    .anime-card {
+      background: #333;
+      border-radius: 10px;
+      padding: 10px;
+      width: 180px;
+      text-align: center;
+      background: #232526;  
+    background: -webkit-linear-gradient(to right, #414345, #232526);  
+    background: linear-gradient(to right, #414345, #232526);  
+
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .anime-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #0f0;
+    }
+
+    .anime-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 8px;
+    }
+
+.dark-mode .anime-card {
+   background: #215f00;  
+background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  
+background: linear-gradient(to right, #e4e4d9, #215f00); 
+
+}
+.dark-mode .anime-card:hover {
+   background: #215f00;  
+background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  
+background: linear-gradient(to right, #e4e4d9, #215f00); 
+
+}
+
+.dark-mode #anime-list{
+   background: #215f00;  
+background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  
+background: linear-gradient(to right, #e4e4d9, #215f00); 
+
+}
+
